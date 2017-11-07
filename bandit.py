@@ -1,3 +1,12 @@
+'''
+Consider the following learning problem. You are faced repeatedly with a choice
+among k different options, or actions. After each choice you receive a numerical
+reward chosen from a stationary probability distribution that depends on the action
+you selected. Your objective is to maximize the expected total reward over some
+time period, for example, over 1000 action selections, or time steps.
+This is the original form of the k-armed bandit problem.
+'''
+
 import numpy as np
 
 class EpsilonGreedy():
