@@ -25,9 +25,9 @@ class EpsilonGreedy():
     def exploitOrExplore(self, k):
         rand = random.random()
         if rand > self.epsilon:
-            return np.argmax(self.Q)
+            return np.argmax(self.Q)        # decide to exploit
         else:
-            return np.random.randint(k)
+            return np.random.randint(k)     # decide to explore
 
             
     def update(self, chosen_arm, reward):
