@@ -1,2 +1,3 @@
-# Reinforcement-Learning-Sutton
-Algorithms and solutions for the book by Sutton: Reinforcement Learning - An Introduction
+# Reinforcement-Learning
+### This notebook contains:
+1. Algorithms and solutions for the book by Sutton: Reinforcement Learning - An Introduction
